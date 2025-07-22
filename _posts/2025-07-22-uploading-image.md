@@ -15,6 +15,7 @@ Let's work !
 ## Practice
 
 ![test_kitten_from_internet](https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
+https://www.pinterest.com/pin/7318418141173565/
 
 This is how to upload the image from the internet!
 
