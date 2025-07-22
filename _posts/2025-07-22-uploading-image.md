@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's upoload the image!"
+title: "Send me your beautiful image!"
 description: "Test post for image uploading"
 date: 2025-07-22
 tags: [test, style]
