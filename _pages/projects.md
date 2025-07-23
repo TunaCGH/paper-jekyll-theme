@@ -5,13 +5,8 @@ permalink: /projects/
 ---
 
 Show off your projects here!
-- [Awesome Project]()
-- [Cool Project]()
-- [New Project]()
-- [Old Project]()
-- [Hard Project]()
-- [School Project]()
-- [Project's Project]()
+- [Awesome Project]()đsf
+
 
 # Talks
 - How to ????
