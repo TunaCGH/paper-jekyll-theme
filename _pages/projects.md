@@ -52,7 +52,7 @@ Motivation
   
 - Adjust the input
 
-```
+~~~Python
 # Create the array of the right shape to feed into the keras model
 # The 'length' or number of images you can put into the array is
 # determined by the first position in the shape tuple, in this case 1
@@ -74,15 +74,15 @@ normalized_image_array = (image_array.astype(np.float32) / 127.5) - 1
 # Load the image into the array
 data[0] = normalized_image_array
 
-```
+~~~
 - Predicting process
-```
+~~~Python
 # Predicts the model
 prediction = model.predict(data)
 index = np.argmax(prediction)
 class_name = class_names[index]
 confidence_score = prediction[0][index]
-```
+~~~
 
 # 4. Technologies Used
 ` keras ` model 
