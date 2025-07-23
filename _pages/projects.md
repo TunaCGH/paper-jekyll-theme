@@ -89,9 +89,29 @@ confidence_score = prediction[0][index]
 Library, include : ` tensorflow `, ` keras `,...
 Code editor... `visual studio code`
 
+# 5. Results
+Overall accuracy: 
 
 
+Class-wise performance:
 
-# Talks
-- How to ????
+Open eyes: 92%
+
+Closed eyes: 88%
+
+Head down: 85%
+
+# 6. Limitations & Improvements
+Limitation
+- Misclassification with glasses
+- Head-down face not visible
+- Poor lighting affects accuracy
+
+# 7. Real-world Applications
+Workplace: Help managers monitor attention levels non-invasively.
+
+Education: Detect students falling asleep in online classes.
+
+Self-learning: Provide feedback to learners who lose focus (e.g., beep alert after inactivity).
+
 
