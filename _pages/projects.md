@@ -5,16 +5,16 @@ permalink: /projects/
 ---
 
 # Content menu..
-## Project Introduction
+## 1. Project Introduction
 # Objective
 
 This project aims to build a system that detects employee attention levels based on input from a webcam or surveillance camera. The system distinguishes between:
 
-- 'Open eyes 
+ ` Open eyes `
 
-- Closed eyes 
+ ` Closed eyes `
 
-- Only hair visible – the person is likely resting their head on the desk (asleep).
+ ` Only hair visible ` the person is likely resting their head on the desk (asleep).
 
 
 Motivation
@@ -25,11 +25,11 @@ Motivation
 
 - Applied in online classrooms or e-learning platforms.
 
-## Problem Statement
+## 2. Problem Statement
 
 - Input: Images.
 
-- Output: A label classifying the person’s state as either open eyes, closed eyes, or only hair.
+- Output: A label classifying the person’s state as either ` open eyes `, ` closed eyes `, or ` only hair `.
 
 # Challenges
 
@@ -37,9 +37,35 @@ Motivation
 
 - The model needs to be sensitive enough to make accurate predictions but also robust to noise.
 
+## 3. Development Roadmap
+# Problem Analysis
 
+- Define the key visual cues for each state.
 
+- Identify common scenarios in an office or working environment.
 
+- Determine whether full-face detection is necessary or just upper face (eye region).
+
+# Data Collection & Preprocessing
+
+- Open datasets, from available Kaggle dataset source, include `open and closed eye`, ` and hair style `
+
+- Preprocessing
+Face detection using HaarCascade, MTCNN, or Dlib.
+
+Resize images to a uniform shape (e.g., 224x224).
+
+Normalize pixel values (0–1) or standardize.
+
+Augmentation:
+
+Rotation (±15°)
+
+Brightness adjustment
+
+Zoom in/out
+
+Horizontal flip
 - [Awesome Project]()đsf
 
 
