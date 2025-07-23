@@ -48,25 +48,33 @@ Motivation
 
 # Data Collection & Preprocessing
 
-- Open datasets, from available Kaggle dataset source, include `open and closed eye`, ` and hair style `
+- Open datasets, from available Kaggle dataset source, include [open and closed eye](https://www.kaggle.com/datasets/tauilabdelilah/mrl-eye-dataset),  [and hair style](https://www.kaggle.com/datasets/kavyasreeb/hair-type-dataset).
 
 - Preprocessing
-Face detection using HaarCascade, MTCNN, or Dlib.
 
-Resize images to a uniform shape (e.g., 224x224).
+```
+# Create the array of the right shape to feed into the keras model
+# The 'length' or number of images you can put into the array is
+# determined by the first position in the shape tuple, in this case 1
+data = np.ndarray(shape=(1, 224, 224, 3), dtype=np.float32)
 
-Normalize pixel values (0–1) or standardize.
+# Replace this with the path to your image
+image = Image.open("<IMAGE_PATH>").convert("RGB")
 
-Augmentation:
+# resizing the image to be at least 224x224 and then cropping from the center
+size = (224, 224)
+image = ImageOps.fit(image, size, Image.Resampling.LANCZOS)
 
-Rotation (±15°)
+# turn the image into a numpy array
+image_array = np.asarray(image)
 
-Brightness adjustment
+# Normalize the image
+normalized_image_array = (image_array.astype(np.float32) / 127.5) - 1
 
-Zoom in/out
+# Load the image into the array
+data[0] = normalized_image_array
 
-Horizontal flip
-- [Awesome Project]()đsf
+```
 
 
 # Talks
