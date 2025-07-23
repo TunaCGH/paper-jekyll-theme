@@ -5,9 +5,9 @@ permalink: /projects/
 ---
 
 # Content menu..
+
 ## 1. Project Introduction
 # Objective
-
 This project aims to build a system that detects employee attention levels based on input from a webcam or surveillance camera. The system distinguishes between:
 
  ` Open eyes `
@@ -26,7 +26,6 @@ Motivation
 - Applied in online classrooms or e-learning platforms.
 
 ## 2. Problem Statement
-
 - Input: Images.
 
 - Output: A label classifying the person’s state as either ` open eyes `, ` closed eyes `, or ` only hair `.
@@ -39,7 +38,6 @@ Motivation
 
 ## 3. Development Roadmap
 # Problem Analysis
-
 - Define the key visual cues for each state.
 
 - Identify common scenarios in an office or working environment.
@@ -51,6 +49,8 @@ Motivation
 - Open datasets, from available Kaggle dataset source, include [open and closed eye](https://www.kaggle.com/datasets/tauilabdelilah/mrl-eye-dataset),  [and hair style](https://www.kaggle.com/datasets/kavyasreeb/hair-type-dataset).
 
 - Preprocessing
+  
+- Adjust the input
 
 ```
 # Create the array of the right shape to feed into the keras model
@@ -75,6 +75,21 @@ normalized_image_array = (image_array.astype(np.float32) / 127.5) - 1
 data[0] = normalized_image_array
 
 ```
+- Predicting process
+```
+# Predicts the model
+prediction = model.predict(data)
+index = np.argmax(prediction)
+class_name = class_names[index]
+confidence_score = prediction[0][index]
+```
+
+# 4. Technologies Used
+` keras ` model 
+Library, include : ` tensorflow `, ` keras `,...
+Code editor... `visual studio code`
+
+
 
 
 # Talks
