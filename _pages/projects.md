@@ -6,27 +6,28 @@ permalink: /projects/
 
 # Content menu..
 ## Project Introduction
-Objective
+# Objective
+
 This project aims to build a system that detects employee attention levels based on input from a webcam or surveillance camera. The system distinguishes between:
 
-- Open eyes – indicating alertness.
+- 'Open eyes 
 
-- Closed eyes – possibly sleepy or inattentive.
+- Closed eyes 
 
 - Only hair visible – the person is likely resting their head on the desk (asleep).
 
 
 Motivation
 
-- In both remote and on-site work environments, monitoring focus and attention is crucial.
+- In both remote and on-site work environments
 
-- This solution allows managers to gauge employee engagement non-invasively, without the need for constant supervision.
+- Monitoring focus and attention is crucial.
 
-- It can also be applied in online classrooms or e-learning platforms.
+- Applied in online classrooms or e-learning platforms.
 
 ## Problem Statement
 
-- Input: Images or video frames from a webcam or fixed camera.
+- Input: Images.
 
 - Output: A label classifying the person’s state as either open eyes, closed eyes, or only hair.
 
@@ -35,6 +36,8 @@ Motivation
 - Real-world variations such as different head angles, lighting conditions, obstructions (e.g., hair, glasses, masks).
 
 - The model needs to be sensitive enough to make accurate predictions but also robust to noise.
+
+
 
 
 - [Awesome Project]()đsf
