@@ -1,10 +1,9 @@
----
+<img width="518" height="1180" alt="image" src="https://github.com/user-attachments/assets/226011ef-b667-487b-946d-80a0e468d2f4" />---
 layout: content
 title: Projects
 permalink: /projects/
 ---
 
-# Content menu..
 
 ## 1. Project Introduction
 # Objective
@@ -90,16 +89,8 @@ Library, include : ` tensorflow `, ` keras `,...
 Code editor... `visual studio code`
 
 # 5. Results
-Overall accuracy: 
+<img width="518" height="1180" alt="image" src="https://github.com/user-attachments/assets/25dd0de6-ded4-45c7-84b4-9a8303391a70" />
 
-
-Class-wise performance:
-
-Open eyes: 92%
-
-Closed eyes: 88%
-
-Head down: 85%
 
 # 6. Limitations & Improvements
 Limitation
