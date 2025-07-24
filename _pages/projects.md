@@ -9,11 +9,11 @@ permalink: /projects/
 # Objective
 This project aims to build a system that detects employee attention levels based on input from a webcam or surveillance camera. The system distinguishes between:
 
- ` Open eyes `
+ * Open eyes *
 
- ` Closed eyes `
+ * Closed eyes *
 
- ` Only hair visible ` the person is likely resting their head on the desk (asleep).
+ * Only hair visible * the person is likely resting their head on the desk (asleep).
 
 
 Motivation
