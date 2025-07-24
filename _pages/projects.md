@@ -91,7 +91,7 @@ Code editor... `visual studio code`
 # 5. Results
 Be able to detecting between who is concentrating or not
 
-Create an announcement that AI can observe people from their daily work
+Create an announcement that AI can observe people in their daily work
 
 # 6. Limitations & Improvements
 Limitation
