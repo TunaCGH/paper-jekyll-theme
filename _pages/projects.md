@@ -89,7 +89,7 @@ Library, include : ` tensorflow `, ` keras `,...
 Code editor... `visual studio code`
 
 # 5. Results
-<img width="518" height="1180" alt="image" src="https://github.com/user-attachments/assets/25dd0de6-ded4-45c7-84b4-9a8303391a70" />
+
 
 
 # 6. Limitations & Improvements
