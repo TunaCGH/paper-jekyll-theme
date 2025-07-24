@@ -89,9 +89,9 @@ Library, include : ` tensorflow `, ` keras `,...
 Code editor... `visual studio code`
 
 # 5. Results
-be able to detecting between who is concentrating or not
+Be able to detecting between who is concentrating or not
 
-
+Create an announcement that AI can observe people from their daily work
 
 # 6. Limitations & Improvements
 Limitation
