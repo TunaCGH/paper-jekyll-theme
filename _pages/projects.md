@@ -1,4 +1,4 @@
-<img width="518" height="1180" alt="image" src="https://github.com/user-attachments/assets/226011ef-b667-487b-946d-80a0e468d2f4" />---
+---
 layout: content
 title: Projects
 permalink: /projects/
