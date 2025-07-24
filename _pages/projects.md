@@ -89,6 +89,7 @@ Library, include : ` tensorflow `, ` keras `,...
 Code editor... `visual studio code`
 
 # 5. Results
+be able to detecting between who is concentrating or not
 
 
 
